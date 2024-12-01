@@ -1,0 +1,28 @@
+name: .NET Core Build
+
+on:
+  push:
+    branches:
+      - main  # O la rama que estés utilizando
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v2
+        with:
+          dotnet-version: '8.0'  # O la versión que estés usando
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build ProvaEx3.sln
+
+      - name: Run tests
+        run: dotnet test ProvaEx3.sln

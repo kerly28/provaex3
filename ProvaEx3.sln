@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaEx3", "ProvaEx3\ProvaEx3.csproj", "{3F27DB04-A37E-42E0-AEA7-A9EE3BC1D740}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F27DB04-A37E-42E0-AEA7-A9EE3BC1D740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F27DB04-A37E-42E0-AEA7-A9EE3BC1D740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F27DB04-A37E-42E0-AEA7-A9EE3BC1D740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F27DB04-A37E-42E0-AEA7-A9EE3BC1D740}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7107895-ABD9-455F-8916-9F533CA7E240}
+	EndGlobalSection
+EndGlobal
